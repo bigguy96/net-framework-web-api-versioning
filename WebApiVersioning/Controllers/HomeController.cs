@@ -1,18 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using Microsoft.Web.Http;
+using System.Web.Http;
 
-namespace WebApiVersioning.Controllers
+namespace ApiVersioning.Controllers
 {
-    public class HomeController : Controller
+    [ApiVersion("1.0")]
+    [ApiVersion("2.0")]
+    [Route("api/v{version:apiVersion}/home")]
+    public class HomeController : ApiController
     {
-        public ActionResult Index()
-        {
-            ViewBag.Title = "Home Page";
 
-            return View();
+        [HttpGet]
+        public IHttpActionResult Index()
+        {
+            return Ok(new { Version = "V1" });
+        }
+
+        [HttpGet]
+        [MapToApiVersion("2.0")]
+        public IHttpActionResult Index2()
+        {
+            return Ok(new { Version = "V2" });
         }
     }
 }

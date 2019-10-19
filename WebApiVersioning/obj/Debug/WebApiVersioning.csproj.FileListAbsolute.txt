@@ -80,3 +80,6 @@ C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\ob
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\obj\Debug\WebApiVersioning.csproj.CopyComplete
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\obj\Debug\WebApiVersioning.dll
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\obj\Debug\WebApiVersioning.pdb
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\bin\Microsoft.AspNet.WebApi.Versioning.dll
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\bin\Microsoft.AspNet.WebApi.Versioning.pdb
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\bin\Microsoft.AspNet.WebApi.Versioning.xml
