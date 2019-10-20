@@ -10,3 +10,5 @@ C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\ApiClient\bin\Debug
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\ApiClient\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\ApiClient\obj\Debug\ApiClient.csproj.CopyComplete
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\ApiClient\bin\Debug\ApiClient.dll.config
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\ApiClient\bin\Debug\Entities.dll
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\ApiClient\bin\Debug\Entities.pdb

@@ -13,3 +13,5 @@ C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiConsole\obj\D
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiConsole\obj\Debug\WebApiConsole.exe
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiConsole\obj\Debug\WebApiConsole.pdb
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiConsole\bin\Debug\ApiClient.dll.config
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiConsole\bin\Debug\Entities.dll
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiConsole\bin\Debug\Entities.pdb

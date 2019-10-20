@@ -58,6 +58,10 @@
       <Project>{6619c659-a149-4409-9fb0-378904e5da92}</Project>
       <Name>ApiClient</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{54eb2613-39dc-42af-b8a7-3cf6cd97ed8b}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

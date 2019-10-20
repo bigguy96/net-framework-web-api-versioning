@@ -1,6 +1,6 @@
-﻿namespace Entities.DTO
+﻿namespace Entities
 {
-    public class UserDTO
+    public class User
     {
         public string Id { get; set; }
         public string FirstName { get; set; }
