@@ -1,6 +1,6 @@
 ﻿using Microsoft.Web.Http;
 using System.Web.Http;
-using WebApiVersioning.DTO;
+using Entities.DTO;
 
 namespace ApiVersioning.Controllers
 {
@@ -13,14 +13,14 @@ namespace ApiVersioning.Controllers
         [HttpGet]
         public IHttpActionResult Index()
         {
-            return Ok(new { Version = "V1" });
+            return Ok( "V1" );
         }
 
         [HttpGet]
         [MapToApiVersion("2.0")]
         public IHttpActionResult IndexV2()
         {
-            return Ok(new { Version = "V2" });
+            return Ok( "V2" );
         }
 
         [HttpPost]

@@ -83,3 +83,5 @@ C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\ob
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\bin\Microsoft.AspNet.WebApi.Versioning.dll
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\bin\Microsoft.AspNet.WebApi.Versioning.pdb
 C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\bin\Microsoft.AspNet.WebApi.Versioning.xml
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\bin\Entities.dll
+C:\Users\gaeta\Source\Repos\net-framework-web-api-versioning\WebApiVersioning\bin\Entities.pdb

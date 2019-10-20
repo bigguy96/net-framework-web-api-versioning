@@ -1,4 +1,4 @@
-﻿namespace WebApiVersioning.DTO
+﻿namespace Entities.DTO
 {
     public class UserDTO
     {
