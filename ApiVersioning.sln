@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entiti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiConsole", "WebApiConsole\WebApiConsole.csproj", "{DE2CE7BF-59B9-48DE-9FE9-AC647D124573}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebApiVersioning2", "WebApiVersioning2\WebApiVersioning2.vbproj", "{577AC479-B987-4532-BCC0-79727F96176C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DE2CE7BF-59B9-48DE-9FE9-AC647D124573}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE2CE7BF-59B9-48DE-9FE9-AC647D124573}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE2CE7BF-59B9-48DE-9FE9-AC647D124573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577AC479-B987-4532-BCC0-79727F96176C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577AC479-B987-4532-BCC0-79727F96176C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577AC479-B987-4532-BCC0-79727F96176C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577AC479-B987-4532-BCC0-79727F96176C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
