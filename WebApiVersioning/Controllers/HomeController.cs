@@ -17,8 +17,7 @@ namespace WebApiVersioning.Controllers
             return Ok("V1");
         }
 
-        [HttpGet]
-        [MapToApiVersion("2.0")]
+        [HttpGet, MapToApiVersion("2.0")]
         [Route("v{version:apiVersion}/home")]
         public IHttpActionResult IndexV2()
         {
@@ -34,8 +33,7 @@ namespace WebApiVersioning.Controllers
             return Ok(userDTO);
         }
 
-        [HttpPost]
-        [MapToApiVersion("2.0")]
+        [HttpPost, MapToApiVersion("2.0")]
         [Route("v{version:apiVersion}/home")]
         public IHttpActionResult AddV2([FromBody] UserDTO userDTO)
         {
@@ -53,8 +51,7 @@ namespace WebApiVersioning.Controllers
             return Ok(userDTO);
         }
 
-        [HttpPut]
-        [MapToApiVersion("2.0")]
+        [HttpPut, MapToApiVersion("2.0")]
         [Route("v{version:apiVersion}/home")]
         public IHttpActionResult PutV2([FromBody] UserDTO userDTO)
         {
@@ -70,8 +67,7 @@ namespace WebApiVersioning.Controllers
             return Ok();
         }
 
-        [HttpDelete]
-        [MapToApiVersion("2.0")]
+        [HttpDelete, MapToApiVersion("2.0")]
         [Route("v{version:apiVersion}/home")]
         public IHttpActionResult DeleteV2()
         {
