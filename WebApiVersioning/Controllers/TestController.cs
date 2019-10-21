@@ -10,17 +10,16 @@ namespace WebApiVersioning.Controllers
     {
         [HttpGet]
         [Route("v{version:apiVersion}/test/{id}")]
-        public IHttpActionResult Index([FromUri] string id)
+        public IHttpActionResult Index([FromUri] string id, string name = "")
         {
-            return Ok($"Version 1: {id}");
+            return Ok($"Version 1: {id}, Name: {name}");
         }
 
-        [HttpGet]
-        [MapToApiVersion("2.0")]
+        [HttpGet, MapToApiVersion("2.0")]
         [Route("v{version:apiVersion}/test/{id}")]
-        public IHttpActionResult IndexV2([FromUri] string id)
+        public IHttpActionResult IndexV2([FromUri] string id, string name = "")
         {
-            return Ok($"Version 2: {id}");
+            return Ok($"Version 2: {id}, Name: {name}");
         }
     }
 }
